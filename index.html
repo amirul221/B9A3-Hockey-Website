@@ -23,6 +23,8 @@
             extend: {
               colors: {
                 'primary-color': '#FF4240',
+                'primary-color-black': '#131318',
+                'primary-color-whitegray': '#FFFFFF99',
               }
             }
           }
@@ -65,12 +67,26 @@
                 </div>
               </div>
         </nav>
+        <!--added to carousel and banner-->
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img  src="Images/1.png" class="w-full" />
+                  <div class="absolute mt-6 ml-36 lg:mt-60 space-x-5 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-primary-color-black border-primary-color-black text-white">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-primary-color-black border-primary-color-black text-white">❮</a> 
+                  </div>
+                </div>
+            </div>
+        </div>
+        
 
     </header>
     <main>
 
     </main>
     <footer>
+
     </footer>
 </body>
 </html>
